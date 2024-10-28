@@ -97,7 +97,7 @@ public boolean valdiateBoardingPoint(String boardingPoint)
 
 public boolean valdiateDestinationPoint(String destinationPoint)
 {
-	if(boardingPoint.equals("hyd")|| boardingPoint.equals("chennai")||boardingPoint.equals("vizag"))
+	if(destinationPoint.equals("hyd")|| destinationPoint.equals("chennai")||destinationPoint.equals("vizag"))
 	{
 		return true;
 	}
